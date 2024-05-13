@@ -5,3 +5,4 @@ pyairtable
 gunicorn
 pandas
 scikit-learn
+airtable-python-wrapper
