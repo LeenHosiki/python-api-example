@@ -22,8 +22,13 @@ class recommendBed:
       ((df['Width'] > float(width)-30) & (df['Width'] < float(width)+30)) &
       ((df['Length'] > float(length)-15) & (df['Length'] < float(length)+15))]
 
-        # Return the filtered data as a list of dictionaries
-        return filtered_df.to_dict('records')
+        # Return random
+        random_row = random.choice(filtered_df.index)
+        data = filtered_df.loc[random_row].to_dict()
+        return data
+        
+        # Return list of dictionaries
+        #return filtered_df.to_dict('records')
 
 
 """
