@@ -4,4 +4,4 @@ flask_restful
 pyairtable
 gunicorn
 pandas
-sklearn
+scikit-learn
