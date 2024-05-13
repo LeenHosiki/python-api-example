@@ -1,6 +1,7 @@
 from pyairtable import Api
 import pandas as pd
 from airtable import airtable
+import random
 
 apiKey = 'patjBumX9wHN6LZID.d878740118a9334a7ed950033bfbf9cdcbf607edaa46d3f46a990b22205639b8'
 tableKey = 'tblrbetENXIvP7FKo'
