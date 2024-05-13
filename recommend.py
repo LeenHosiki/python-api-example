@@ -1,5 +1,4 @@
 from pyairtable import Api
-import datascience
 import pandas as pd
 from airtable import airtable
 
